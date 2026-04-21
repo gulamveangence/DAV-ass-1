@@ -54,7 +54,7 @@ python ABB_ARIMA.py
 
 ### Closing Price Trend
 
-![Closing Price Trend](outputs/part1_closing_price_trend.png)
+![Closing Price Trend](trend.jpeg)
 
 **Observation:** ABB India stock showed notable price movement over the year. The stock traded in the range of approximately ₹15 to ₹20, reflecting the performance of the capital goods and industrial automation sector during this period.
 
@@ -76,7 +76,7 @@ After 1st differencing, the series became stationary (p ≤ 0.05).
 
 ### (b) ACF and PACF Plots
 
-![ACF and PACF](outputs/part2_acf_pacf.png)
+![ACF and PACF](ACF.jpeg)
 
 | Plot | Used For | How to Read |
 |------|----------|-------------|
@@ -87,7 +87,7 @@ After 1st differencing, the series became stationary (p ≤ 0.05).
 
 ### (c) ARIMA Model Fit & Evaluation
 
-![Model Evaluation](outputs/part2_model_evaluation.png)
+![Model Evaluation](ACF.jpeg)
 
 **Model Performance Metrics:**
 
@@ -103,7 +103,7 @@ After 1st differencing, the series became stationary (p ≤ 0.05).
 
 ## 🔮 Part (iii): 30-Day Future Price Prediction
 
-![30-Day Forecast](outputs/part3_forecast.png)
+![30-Day Forecast](forecast.jpeg)
 
 - The model was **refit on the full 1-year dataset** for maximum forecast accuracy.
 - **Next 30 trading days** of closing prices were predicted.
